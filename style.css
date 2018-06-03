@@ -1,0 +1,26 @@
+
+
+ul:before, ul:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+ul:after {
+  margin: 0 -55% 0 .5em;
+}
+
+/*
+.heading:before, .heading:after,
+.heading-ie span.after, .heading-ie span.before {
+  content: '';
+  flex-grow: 1;
+  margin: 0px 4px;
+  background: linear-gradient(to right, white, white);
+  background-size: 100% 2px;
+  background-position: 0% 50%;
+  background-repeat: repeat-x;
+}
+*/
