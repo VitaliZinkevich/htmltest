@@ -13,6 +13,7 @@ body {
  overflow: hidden;
  text-align: center;
  margin-top: 15px;
+ margin-bottom: 25px;
 }
 #nav:before,
 #nav:after {
@@ -21,9 +22,10 @@ body {
  display: inline-block;
  height: 3px;
  position: relative;
- vertical-align: baseline;
+/* line-height: 3px;
+	vertical-align: middle;*/
  width: 50%;
- margin-top: 27px;
+ margin-top: 18px;
 }
 #nav:before {
  right: 0.5em;
@@ -42,7 +44,7 @@ body {
 }
 
 .one {
-	height: 30vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -76,7 +78,7 @@ width: 100%
 .my-h1 {
 
 font-weight: 900;
-margin: 0px 0px 20px 0px;
+margin: 25px 0px 20px 0px;
 }
 
 .btn.btn-lg {
@@ -133,10 +135,13 @@ li{
 	font-size: 75px;
 	font-weight: 900;
 	height:  200px;
+	line-height: 200px;
+  vertical-align: middle;
 	background: white;
 	color: #5DBCD2 ;
 	text-align: center;
 	margin: 0px 25px 0px 25px;
+
 
 }
 
